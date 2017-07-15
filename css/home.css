@@ -1,0 +1,258 @@
+/*text: #0B1942
+inline link: #00B7D3
+h2 background: #0B1942
+h2 color: #FFFFFF
+logo background: #F5005B
+navigation background: #7DDFE8
+navigation link color: #FFFFFF
+"Home" nav link background: #00A5BF
+"Calendar" nav link background: #00B7D3
+"Join" nav link background: #00D5E7
+"Up Next" background: #0B1942
+"Up Next" card background #E2E2E2
+calendar background and treatments: #0B1942
+calendar highlighted day: #F5005B
+button background: #F5005B
+copyright text: #FFFFFF*/
+
+
+* {
+  font-family: 'PT Sans';
+}
+
+h1 {
+  color: #FFF;
+  margin-bottom: 0;
+  padding: 15px;
+}
+
+h2 {
+  background-color: #0B1942;
+  color: #FFF;
+  font-weight: normal;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+nav {
+  background-color: #7DDFE8;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+nav li  {
+  align-items: center;
+  display: flex;
+  height: 3em;
+  justify-content: center;
+  width: 100%;
+}
+
+nav a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+img.nav-fc-logo {
+  width: 7.5em;
+  height: 7.5em;
+}
+
+  .nav-ul {
+  display: flex;
+  height: 100%;
+  list-style: none;
+  padding: 0;
+  flex-direction: column;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+  .wrapper {
+    background-color: #F5005B;
+}
+
+  .nav-home {
+  background-color: #00A5BF;
+}
+
+  .nav-calendar {
+  background-color: #00B7D3;
+}
+
+  .nav-join {
+  background-color: #00D5E7;
+}
+
+  #get-involved {
+  background-color: inherit;
+  color: #0B1942
+}
+
+  .up-next {
+  background-color: #0B1942;
+}
+
+  .up-next a {
+  color: #00B7D3
+}
+
+  .rashomon {
+  background-color: #E2E2E2;
+}
+
+  .posters {
+  background-color: #E2E2E2;
+}
+
+  .get-involved {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .headers h2 {
+    padding-left: 20px;
+  }
+
+  .up-next {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+  }
+
+  .up-next img {
+    max-width: 30vw;
+    min-height: 30vw;
+  }
+
+  .rashomon {
+    display: flex;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+
+  .rashomon-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .discussion-points {
+    list-style: circle;
+  }
+
+  .posters {
+    margin-top: 15px;
+    padding: 20px;
+  }
+
+  .posters img {
+    padding: 5px;
+  }
+
+  .posters span {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .top-posters {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .great-poster {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bicycle-poster {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bottom-posters {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nosferatu-poster {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .metropolis-poster {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bottom-nav {
+    display: flex;
+  }
+
+  .copyright {
+  color: #FFF;
+}
+
+  @media screen and (min-width: 545px) {
+
+  .nav-ul {
+    flex-direction: row;
+  }
+
+  nav li {
+    height: 9em;
+  }
+
+  nav li {
+    width: 9em;
+  }
+
+  .posters {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .posters img {
+    max-width: 20vw;
+  }
+
+  .copyright {
+    justify-content: flex-end;
+    width: 45%;
+  }
+
+  }
+
+  @media screen and (min-width: 769px) {
+
+  .rashomon {
+    margin: 20px;
+    max-width: 40vw;
+  }
+
+  .up-next {
+    display: flex;
+    flex-direction: row;
+    }
+
+  .posters {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  }

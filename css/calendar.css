@@ -1,0 +1,172 @@
+* {
+  font-family: 'PT Sans';
+}
+
+h1 {
+  color: #FFF;
+  margin-bottom: 0;
+  padding: 15px;
+}
+
+h2 {
+  background-color: #0B1942;
+  color: #FFF;
+  font-weight: normal;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+nav {
+  background-color: #7DDFE8;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+nav li  {
+  align-items: center;
+  display: flex;
+  height: 3em;
+  justify-content: center;
+  width: 100%;
+}
+
+nav a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+img.nav-fc-logo {
+  width: 7.5em;
+  height: 7.5em;
+}
+
+  .nav-ul {
+  display: flex;
+  height: 100%;
+  list-style: none;
+  padding: 0;
+  flex-direction: column;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+  .wrapper {
+    background-color: #F5005B;
+}
+
+  .nav-home {
+  background-color: #00A5BF;
+}
+
+  .nav-calendar {
+  background-color: #00B7D3;
+}
+
+  .nav-join {
+  background-color: #00D5E7;
+}
+
+.meetup h2 {
+  background-color: inherit;
+  color: #0B1942;
+  margin-left: 20px;
+}
+
+/*  ***Calendar Build***  */
+
+.calendar-container {
+  background-color: #0B1942;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.calendar-container h2 {
+  margin-left: 20px;
+}
+
+.calendar-container span {
+  background-color: #0B1942;
+  color: #E2E2E2;
+  padding: 3px;
+  /*text-align: center;*/
+}
+
+.cal-wht {
+  background-color: #E2E2E2;
+  border: 1px solid #0B1942;
+  width: 14.28%;
+  height: 14.28vw;
+}
+
+.calendar-1-7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#calendar-13 {
+  background-color: #F5005B;
+}
+
+.calendar-8-14 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.calendar-15-21 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#calendar-27 {
+  background-color: #F5005B;
+}
+
+.calendar-22-28 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.calendar-29-31 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.bottom-nav {
+  display: flex;
+}
+
+.copyright {
+color: #FFF;
+align-content: flex-end;
+}
+
+@media screen and (min-width: 545px) {
+
+.nav-ul {
+  flex-direction: row;
+}
+
+nav li {
+  height: 9em;
+}
+
+nav li {
+  width: 9em;
+}
+
+}
